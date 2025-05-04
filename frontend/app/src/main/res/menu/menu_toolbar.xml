@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_compile"
+        android:title="Compile"
+        android:icon="@drawable/run"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_upload_file"
+        android:title="Upload File"
+        android:icon="@drawable/add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_save_code"
+        android:title="Save Code"
+        android:icon="@drawable/save"
+        app:showAsAction="ifRoom" />
+
+</menu>

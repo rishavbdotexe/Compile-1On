@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Compile 1O(n)</string>
+    <!-- Other strings like language_options array -->
+    <string-array name="language_options">
+        <item>Java</item>
+        <item>C</item>
+        <item>C++</item>
+        <item>Python</item>
+        <item>JavaScript</item>
+        <item>Ruby</item>
+        <item>Go</item>
+        <item>Swift</item>
+        <item>Kotlin</item>
+        <item>TypeScript</item>
+        <item>Rust</item>
+        <item>Perl</item>
+        <item>Bash</item>
+    </string-array>
+</resources>

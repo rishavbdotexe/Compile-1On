@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="md_theme_light_primary">#000000</color> <!-- Toolbar background -->
+    <color name="md_theme_light_onPrimary">#FFFFFF</color> <!-- Toolbar text/icon -->
+    <color name="md_theme_light_background">#F5F5F5</color> <!-- Activity background -->
+    <color name="md_theme_light_onBackground">#000000</color> <!-- Text on background -->
+
+    <!-- Required for theme compatibility -->
+    <color name="colorPrimary">#000000</color>
+
+    <!-- Custom button colors -->
+    <color name="buttonColor">#FF5722</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+
+    <!-- VS Code Dark Theme Colors -->
+    <color name="vscode_dark_bg">#000000</color>          <!-- Main background (black) -->
+    <color name="vscode_editor_bg">#272822</color>       <!-- Editor background (Monokai) -->
+    <color name="vscode_sidebar_bg">#1A1A1A</color>      <!-- Sidebar background (slightly lighter) -->
+    <color name="vscode_text">#F8F8F2</color>            <!-- Normal text (Monokai) -->
+    <color name="vscode_keyword">#F92672</color>         <!-- Keywords (Monokai pink) -->
+    <color name="vscode_string">#E6DB74</color>          <!-- Strings (Monokai yellow) -->
+    <color name="vscode_comment">#75715E</color>         <!-- Comments (Monokai gray) -->
+    <color name="vscode_function">#A6E22E</color>        <!-- Functions (Monokai green) -->
+    <color name="vscode_variable">#F8F8F2</color>        <!-- Variables (Monokai white) -->
+    <color name="vscode_number">#AE81FF</color>          <!-- Numbers (Monokai purple) -->
+    <color name="vscode_operator">#F8F8F2</color>        <!-- Operators (Monokai white) -->
+    <color name="vscode_line_number">#75715E</color>     <!-- Line numbers (Monokai gray) -->
+    <color name="vscode_current_line">#3E3D32</color>    <!-- Current line highlight (Monokai) -->
+    <color name="vscode_selection">#49483E</color>       <!-- Selection highlight (Monokai) -->
+    <color name="vscode_toolbar">#000000</color>         <!-- Toolbar background (black) -->
+    <color name="vscode_input_bg">#1A1A1A</color>        <!-- Input field background -->
+    <color name="vscode_status_bar">#000000</color>      <!-- Status bar color (black) -->
+    <color name="vscode_toolbar_text">#FFFFFF</color>    <!-- Toolbar text color -->
+
+    <!-- Language Card Colors -->
+    <color name="card_bg_selected">#3E3D32</color>       <!-- Selected card background -->
+    <color name="card_bg_normal">#272822</color>         <!-- Normal card background -->
+    <color name="card_stroke">#49483E</color>            <!-- Card border color -->
+</resources>

@@ -1,0 +1,25 @@
+FROM ubuntu:20.04
+
+# Install required packages
+RUN apt-get update && apt-get install -y \
+    bash \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create sandbox user and set permissions
+RUN useradd -m sandbox && \
+    chown -R sandbox:sandbox /home/sandbox && \
+    chmod 755 /home/sandbox
+
+# Switch to sandbox user
+USER sandbox
+WORKDIR /home/sandbox
+
+# Create a directory for code execution
+RUN mkdir -p /home/sandbox/code
+WORKDIR /home/sandbox/code
+
+# Set permissions for code directory
+RUN chmod 755 /home/sandbox/code
+
+# Default command
+CMD ["/bin/bash"]

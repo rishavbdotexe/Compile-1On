@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base Theme for DayNight -->
+    <style name="Base.Theme.OnlineCompilerApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Custom toolbar color for both themes (dark theme in this case) -->
+        <item name="colorPrimary">#000000</item>  <!-- Dark primary color -->
+        <item name="colorPrimaryDark">#000000</item> <!-- Dark primary dark color -->
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="android:colorBackground">@color/md_theme_light_background</item>
+        <item name="android:textColor">@color/md_theme_light_onBackground</item>
+    </style>
+
+    <!-- Custom ActionBar Style -->
+    <style name="CustomActionBar">
+        <item name="android:titleTextStyle">@style/CustomTitleText</item> <!-- ActionBar title style -->
+    </style>
+
+    <!-- Custom Title Text Style -->
+    <style name="CustomTitleText">
+        <item name="android:textSize">20sp</item>  <!-- Change title size -->
+        <item name="android:textColor">@android:color/holo_blue_bright</item>  <!-- Title text color -->
+    </style>
+
+    <!-- Applying the base theme -->
+    <style name="Theme.OnlineCompilerApp" parent="Base.Theme.OnlineCompilerApp" />
+</resources>

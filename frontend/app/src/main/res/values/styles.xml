@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Main background color (VS Code dark) -->
+        <item name="android:windowBackground">@color/vscode_dark_bg</item>
+        <item name="android:colorBackground">@color/vscode_dark_bg</item>
+        <item name="android:textColor">@color/vscode_text</item>
+        <item name="android:textColorPrimary">@color/vscode_toolbar_text</item>
+        <item name="android:statusBarColor">@color/vscode_toolbar</item>
+        <item name="android:navigationBarColor">@color/vscode_dark_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimary">@color/vscode_toolbar</item>
+        <item name="colorPrimaryDark">@color/vscode_toolbar</item>
+    </style>
+
+    <!-- Output Dialog Theme -->
+    <style name="OutputDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/vscode_editor_bg</item>
+        <item name="android:textColor">@color/vscode_text</item>
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- EditText Style -->
+    <style name="VSCodeEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@color/vscode_input_bg</item>
+        <item name="android:textColor">@color/vscode_text</item>
+        <item name="android:textColorHint">@color/vscode_line_number</item>
+    </style>
+</resources> 
