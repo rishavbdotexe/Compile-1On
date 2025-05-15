@@ -1,4 +1,4 @@
-Let me analyze the project and provide a detailed setup guide.
+Detailed setup guide.
 
 ## Project Analysis
 
@@ -224,5 +224,3 @@ tail -f backend/logs/application.log
 ### Frontend Logs:
 - Use Android Studio's Logcat
 - Filter by your app's package name
-
-Would you like me to provide more details about any specific part of the setup process?
